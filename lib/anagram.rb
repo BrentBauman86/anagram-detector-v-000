@@ -9,7 +9,7 @@ def initialize(words)
 end
 
 def match(word)
- # binding.pry
+  binding.pry
   word.select do |word|
     word.split("").sort == words.split("").sort
 # binding.pry
